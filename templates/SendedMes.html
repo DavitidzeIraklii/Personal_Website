@@ -1,0 +1,52 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% include "header.html" %}
+<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!--<span class="icon fa-gem"></span>-->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h2 class="major">Message sended</h2>
+                                <p>Thank's for Message. I will response as soon as possible.</p>
+							</div>
+						</div>
+						{{ wtf.quick_form(form, novalidate=True, button_map={'submit':'primary'}) }}
+					</header>
+				<!-- Main -->
+
+
+						<!-- Elements -->
+							<article id="elements">
+
+
+
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">{{year}}</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>

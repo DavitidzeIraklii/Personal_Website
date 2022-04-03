@@ -1,0 +1,164 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% include "header.html" %}
+<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<!--<span class="icon fa-gem"></span>-->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Davitidze Iraklii</h1>
+								<p>Personal website | See info below</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Who am I?</a></li>
+								<li><a href="#work">Languages</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#about">Experience</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Who am I?</h2>
+								<span class="image main"><img src="/static/images/face.jpg" alt="" /></span>
+								<p>I'm Ukrainian. Before the war started I have stared to learn programming. Right now I'm living in Amsterdam, Netherlands, and if in the beginning coding was a hobby for me, now finding a job is also responsibility for helping my family and friends. Back-end, apps, working with data - thats what I'm aming for. <a href="#work"></a></p>
+								<p> </p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Programming languages</h2>
+								<!--<span class="image main"><img src="images/pic02.jpg" alt="" /></span>-->
+								<table>
+									<tr>
+										<td><uo><li>Python</li></uo></td>
+										<td><p class="par">It's the main language for me now.</p><p class="par">Back-end of this website as all other projects</p><p class="par"> are working on Python.</p><p class="par">Pandas, SQLAlchemy, NumPY, Flask, Beautiful Soup, Selenium</p></td>
+									</tr>
+									<tr>
+										<td><uo><li>HTML/CSS</li></uo></td>
+										<td><p class="par">Bassically this site is made of template.</p><p class="par">As I'm not targeting to learn front-end webdevelopment,</p><p class="par">still it's enough level to do a basic site from scratch</p><p class="par"> or adapting template to my own needs. I can use Bootstrap also.</p></td>
+									</tr>
+								</table>
+
+							</article>
+
+						<!-- projects -->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span>-->
+								<table>
+									<tr>
+										<td><uo><li><a>Project</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 2</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 3</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 4</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 5</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 6</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+									<tr>
+										<td><uo><li><a>Project 7</a></li></uo></td>
+										<td><p class="par">nfjidwfnkwmlmffdkonfowdkfjdesfjmeklwdf</p><p class="par">fnjdwnwfjkslnwedsfmelkadsfmekwldfsfnskmwes</p></td>
+									</tr>
+								</table>
+							</article>
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Experience</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>My work experience would be here.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Get in Touch</h2>
+								{{ wtf.quick_form(form, novalidate=True) }}
+								<!--<form method="post" action="#">
+
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>-->
+								<table>
+									<tr>
+										<td><uo><li>My Number: +380681512075</li><li>My Email: spaceduck1313@gmail.com</li></uo></td>
+										<td><p><a href="https://api.whatsapp.com/send? phone=+380681512075" target="_blank" class="par2">WhatsUp</a><a href="https://t.me/davitidze" target="_blank" class="par2">Telegramm</a><a href="https://skobelkin.ru/viber/380681512075" target="_blank" class="par2">Viber</a></p></td>
+									</tr>
+								</table>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/iraklii-davitidze-a81b1a226/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://www.facebook.com/IkaDavitidze" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/davitidze_iraklii/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/DavitidzeIraklii" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">{{year}} | Today is {{war}} day of war in Ukraine</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>
